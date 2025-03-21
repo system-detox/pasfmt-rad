@@ -6,7 +6,7 @@
   </picture>
 </h1>
 
-A RAD Studio plugin integrating [`pasfmt`](https://github.com/integrated-application-development/pasfmt/), a complete
+A RAD Studio plugin integrating [`pasfmt`](https://github.com/system-detox/pasfmt), a complete
 and opinionated formatter for Delphi code, into the IDE.
 
 `pasfmt-rad` is available for Delphi 11 and above - earlier versions may be able to be
@@ -15,7 +15,7 @@ and opinionated formatter for Delphi code, into the IDE.
 ## Installation
 
 1. Download and install the package BPL for your Delphi version
-2. Download [`pasfmt`](https://github.com/integrated-application-development/pasfmt) and add to PATH
+2. Download [`pasfmt`](https://github.com/system-detox/pasfmt) and add to PATH
 3. Restart RAD Studio
 
 ## Usage
@@ -33,7 +33,7 @@ The formatter can optionally be triggered on save; this can be enabled in  `Tool
 
 To customise the configuration, create a file called `pasfmt.toml` in the root directory of the project you are
 formatting. For more information, see the
-[Configuration section](https://github.com/integrated-application-development/pasfmt#Configuration) of `pasfmt`.
+[Configuration section](https://github.com/system-detox/pasfmt#Configuration) of `pasfmt`.
 
 ## Building from source
 
